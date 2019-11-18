@@ -1,0 +1,40 @@
+.big-button{
+    background: $purple;
+    border:none;
+    border-radius: 4%;
+    border-bottom: .6rem solid darken($purple, 15%);
+    color: white;
+    font-size: $l-size;
+    font-weight: bold;
+    width:100%;
+    margin-bottom: $xl-size;
+    padding: $l-size;
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, .1);
+    transition: all 0.3s ease 0s;
+   
+}
+
+.big-button:hover:not([disabled]) {
+    transition-delay: 200ms;
+    background-color: $purple;
+    box-shadow: 0px 25px 25px rgba(255, 255, 255, .1);
+    color: #fff;
+    transform: translateY(-10px);
+  }
+.big-button:disabled{
+    opacity: .5;
+}
+.big-button:focus {outline:0;}
+.button{
+    background: $purple;
+    border:none;
+    border-bottom: .6rem solid darken($purple, 15%);
+    color: white;
+    padding: $s-size;
+    font-weight: 500;
+}
+.button--link{
+    background: none;
+    color:$offWhite;
+    border-bottom: none;
+}

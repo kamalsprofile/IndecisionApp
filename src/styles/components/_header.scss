@@ -1,0 +1,13 @@
+.header{
+    background: $offBlack;
+    color:white;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;
+}
+.header__title{
+    font-size: $xl-size
+}
+.header__sub__title{
+    color: $offWhite;
+    font-size: $m-size
+}

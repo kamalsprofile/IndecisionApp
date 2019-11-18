@@ -1,0 +1,20 @@
+.err-message{
+font-style: italic;
+color:$offWhite;
+padding: 0 0 0 $s-size;
+font-size: $s-size;
+}
+
+.form{
+    display: flex;
+    padding: $s-size;
+}
+.form-input {
+    flex-grow: 1;
+    background-color: $darkBlue;
+    border:none;
+    border-bottom: 2px solid darken($darkBlue, 9%);
+    color: white;
+    margin-right: 10px;
+    padding: 0 0 0 10px;
+}

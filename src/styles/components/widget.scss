@@ -1,0 +1,23 @@
+.widget{
+    background-color: $light-blue;
+    margin-bottom: $xl-size;
+}
+.widget-header{
+    background-color: $blue;
+    color:$offWhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 $s-size;
+}
+.widget-header .widget-header__title{
+    margin: 0;
+    line-height: 3;
+}
+.widget-pTag{
+    display: flex;
+    justify-content: center;
+    color:$offWhite;
+    padding: $m-size;
+    border-bottom: .2rem solid $offWhite;
+    margin-bottom: $m-size;
+}

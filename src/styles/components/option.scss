@@ -1,0 +1,17 @@
+.widget-option{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding:  $m-size $l-size;
+
+    border-bottom: 1px solid lighten($offWhite, 10%)
+}
+.widget-options-list li{
+    font-size: $m-size;
+    font-weight: bold;
+    line-height: 3;
+
+}
+.widget-options-list {
+padding: 0;
+}
